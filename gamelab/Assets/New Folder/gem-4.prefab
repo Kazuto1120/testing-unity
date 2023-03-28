@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2374098479127869354}
   m_Layer: 0
   m_Name: gem-4
-  m_TagString: Untagged
+  m_TagString: gem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audio: {fileID: 2374098479127869354}
   rigid: {fileID: 970438098829977197}
-  speed: 10
+  speed: 30
   score: {fileID: 0}
 --- !u!61 &970438098829977199
 BoxCollider2D:

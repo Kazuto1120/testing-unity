@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2243962540633213286}
   m_Layer: 0
   m_Name: spawner
-  m_TagString: Untagged
+  m_TagString: spawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,6 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballon: {fileID: 3717773058502202117, guid: a62af4af35af2f6488e9c6453c48926b, type: 3}
+  bunny: {fileID: 5910648667905198415, guid: d1e67b870d3b33143824435df3f1d9e0, type: 3}
+  maxbunny: 6
+  currentbunny: 0
   timer: 0
   spawnrate: 1
   max: 10

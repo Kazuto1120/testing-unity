@@ -6,6 +6,10 @@ TagManager:
   tags:
   - balloon
   - logic
+  - enemy
+  - gem
+  - target
+  - spawner
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class movement : MonoBehaviour
 {
@@ -10,9 +11,11 @@ public class movement : MonoBehaviour
     [SerializeField] float speed;
     [SerializeField] GameObject gem;
     [SerializeField] double timer = 1;
+    public int health = 3;
     public bool ismoving = false;
     public bool right = true;
     private Animator animator;
+    private Vector2 mousePosition;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -46,6 +49,16 @@ public class movement : MonoBehaviour
         }
         if (Input.GetButton("Fire1")&& timer>=2&&ismoving==false)
         {
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            if(mousePosition.x > transform.position.x&&!right)
+            {
+                flip();
+            }
+            if (mousePosition.x < transform.position.x && right)
+            {
+                flip();
+            }
+
             animator.SetBool("shoot", true);
             fire();
             timer = 0;
@@ -71,6 +84,13 @@ public class movement : MonoBehaviour
             flip();
         }
        
+    }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+       
+        health -= 1;
+        if(health <=0)
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     void flip()
     {

@@ -5,6 +5,9 @@ using UnityEngine;
 public class ballonspawner : MonoBehaviour
 {
     [SerializeField] GameObject ballon;
+    [SerializeField] GameObject bunny;
+    public int maxbunny = 6;
+    public int currentbunny = 0;
     [SerializeField] double timer = 0;
     [SerializeField] double spawnrate = 1;
     [SerializeField] int max = 10;
@@ -18,7 +21,7 @@ public class ballonspawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timer < 1)
+        if(timer < 2)
         {
             timer = timer + (Time.deltaTime*spawnrate);
         }
@@ -31,6 +34,12 @@ public class ballonspawner : MonoBehaviour
     void spawn()
     {
         Instantiate(ballon, new Vector3(Random.Range(-max,max), -6,0), Quaternion.identity);
+        if (Random.Range(1,5)==1) {
+            if (currentbunny < maxbunny)
+            {
+                Instantiate(bunny, new Vector3(Random.Range(-max, max), -6, -3), Quaternion.identity);
+                currentbunny += 1;
+            } }
 
     }
 }
