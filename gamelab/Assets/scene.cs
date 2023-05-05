@@ -32,7 +32,7 @@ public class scene : MonoBehaviour
         Time.timeScale = 1f;
         Pause = false;
     }
-    void pause()
+    public void pause()
     {
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;

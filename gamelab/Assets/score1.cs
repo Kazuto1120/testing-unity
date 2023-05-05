@@ -10,7 +10,7 @@ public class score1 : MonoBehaviour
     private void Awake()
     {
         Score=PlayerPrefs.GetInt("Score");
-        add(Score);
+        set(Score);
     }
 
     public void add( int x)

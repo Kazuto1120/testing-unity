@@ -96,7 +96,7 @@ public class movement : MonoBehaviour
         PlayerPrefs.SetInt("health", health);
         healthbar.GetComponent<healthslider>().setheath(health);
         if(health <=0)
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("end");
     }
     void flip()
     {
