@@ -4,7 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class play : MonoBehaviour
 {
-public void Play()
+    private void Awake()
+    {
+        PlayerPrefs.SetInt("Score", 0);
+        PlayerPrefs.SetInt("health", 3);
+    }
+    public void Play()
     {
         SceneManager.LoadScene("scene 1");
     }

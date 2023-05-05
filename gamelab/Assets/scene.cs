@@ -16,9 +16,7 @@ public class scene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (logic.GetComponent<score1>().Score >= 10) {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (Pause) {

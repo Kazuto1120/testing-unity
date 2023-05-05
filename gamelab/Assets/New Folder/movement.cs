@@ -16,16 +16,20 @@ public class movement : MonoBehaviour
     public bool right = true;
     private Animator animator;
     private Vector2 mousePosition;
+    [SerializeField] GameObject healthbar;
     // Start is called before the first frame update
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        
     }
     void Start()
     {
+        health = PlayerPrefs.GetInt("health");
         speed = 10;
         if (rigid == null)
             rigid = GetComponent<Rigidbody2D>();
+        
         
     }
 
@@ -89,6 +93,8 @@ public class movement : MonoBehaviour
     {
        
         health -= 1;
+        PlayerPrefs.SetInt("health", health);
+        healthbar.GetComponent<healthslider>().setheath(health);
         if(health <=0)
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
