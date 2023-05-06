@@ -34,7 +34,7 @@ public class ballonspawner : MonoBehaviour
     void spawn()
     {
         Instantiate(ballon, new Vector3(Random.Range(-max,max), -6,0), Quaternion.identity);
-        if (Random.Range(1,5)==1) {
+        if (Random.Range(1,3)==1) {
             if (currentbunny < maxbunny)
             {
                 Instantiate(bunny, new Vector3(Random.Range(-max, max), -6, -3), Quaternion.identity);

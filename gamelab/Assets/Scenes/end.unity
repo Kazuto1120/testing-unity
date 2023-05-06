@@ -1457,8 +1457,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1157126548}
-        m_TargetAssemblyTypeName: scene, Assembly-CSharp
-        m_MethodName: startMenu
+        m_TargetAssemblyTypeName: back, Assembly-CSharp
+        m_MethodName: backmain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1515,11 +1515,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1157126543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5aa68e2d7dadcd646bf701ee29f6e41a, type: 3}
+  m_Script: {fileID: 11500000, guid: a8b9676ed202c4f4f976f43d8c9f718a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logic: {fileID: 0}
-  pauseMenu: {fileID: 0}
 --- !u!1 &1165421041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1631470829984179179, guid: 8cacfd8a02eea9a43bde674324c1d76e, type: 3}

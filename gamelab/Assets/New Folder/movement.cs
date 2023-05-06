@@ -26,6 +26,7 @@ public class movement : MonoBehaviour
     void Start()
     {
         health = PlayerPrefs.GetInt("health");
+        healthbar.GetComponent<healthslider>().setheath(health);
         speed = 10;
         if (rigid == null)
             rigid = GetComponent<Rigidbody2D>();
