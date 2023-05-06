@@ -8,6 +8,7 @@ public class play : MonoBehaviour
     {
         PlayerPrefs.SetInt("Score", 0);
         PlayerPrefs.SetInt("health", 3);
+        PlayerPrefs.SetInt("level", 1);
     }
     public void Play()
     {

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class balloonMove : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class balloonMove : MonoBehaviour
     {
       
         
-        rigid.velocity = (Vector2.up * speed);
+        rigid.velocity = (Vector2.up * speed* PlayerPrefs.GetInt("level"));
         if (rigid.position.y > height)
         {
             destroy();

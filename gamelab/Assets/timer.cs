@@ -20,6 +20,7 @@ public class timer : MonoBehaviour
         // Check if the timer has run out
         if (timeRemaining <= 0f)
         {
+            PlayerPrefs.SetInt("level", PlayerPrefs.GetInt("level") + 1);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
