@@ -11,12 +11,15 @@ public class ranking : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rankingnum = PlayerPrefs.GetInt("rank");
         string name = "name" + rankingnum;
         string num = "leader" + rankingnum;
-        rankingnum = PlayerPrefs.GetInt("rank");
+        
         PlayerPrefs.SetInt("rank",rankingnum+1);
         textn.text = PlayerPrefs.GetString(name);
         texts.text = PlayerPrefs.GetInt(num).ToString();
+
+
     }
 
     // Update is called once per frame

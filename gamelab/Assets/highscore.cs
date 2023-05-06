@@ -13,6 +13,7 @@ public class highscore : MonoBehaviour
     {
         currentscore = PlayerPrefs.GetInt("Score");
         currentname = PlayerPrefs.GetString("playername");
+        
     }
     // Start is called before the first frame update
     void Start()
@@ -30,10 +31,9 @@ public class highscore : MonoBehaviour
                 currentname = n;
             }
         }
-        for(int i = 0; i < entree; i++)
-        {
-            Instantiate(enter, transform.position, Quaternion.identity);
-        }
+        
+
+        
     }
 
    

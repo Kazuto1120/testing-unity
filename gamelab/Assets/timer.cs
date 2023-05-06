@@ -8,7 +8,7 @@ public class timer : MonoBehaviour
 {
     public Text textt;
 
-    [SerializeField] float timeRemaining=30f; 
+    [SerializeField] float timeRemaining=10f; 
 
     void Update()
     {
