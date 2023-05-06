@@ -18,5 +18,9 @@ public class play : MonoBehaviour
     {
         SceneManager.LoadScene("end");
     }
+    public void tutorial()
+    {
+        SceneManager.LoadScene("tutorial");
+    }
 
 }

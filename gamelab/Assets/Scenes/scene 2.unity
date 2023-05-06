@@ -2129,5 +2129,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: logic
       objectReference: {fileID: 0}
+    - target: {fileID: 8826774792635103567, guid: c28c396c73181354d9ea6c0dc99c652e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c28c396c73181354d9ea6c0dc99c652e, type: 3}
