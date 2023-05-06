@@ -7,7 +7,7 @@ public class highscore : MonoBehaviour
     [SerializeField] int entree = 5;
     [SerializeField] int currentscore = 0;
     [SerializeField] string currentname = "name";
-    [SerializeField] GameObject enter;
+    
 
     private void Awake()
     {
@@ -31,6 +31,7 @@ public class highscore : MonoBehaviour
                 currentname = n;
             }
         }
+       
         
 
         

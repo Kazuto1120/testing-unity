@@ -13,5 +13,9 @@ public class play : MonoBehaviour
     {
         SceneManager.LoadScene("scene 1");
     }
+    public void highscore()
+    {
+        SceneManager.LoadScene("end");
+    }
 
 }
