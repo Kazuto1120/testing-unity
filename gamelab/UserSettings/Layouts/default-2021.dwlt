@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 77
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 22
+  controlID: 65
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 23
+  controlID: 66
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,7 +308,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 49136
+  m_LastSelectedObjectID: 42152
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -587,7 +587,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -649,9 +649,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a05f0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffff
+      m_SelectedIDs: 14af0000
+      m_LastClickedID: 44820
+      m_ExpandedIDs: e8b4ffffe4b5ffff30b6ffffa8b7ffff0cb8ffff68b8ffffc4b8ffff2cb9ffff62b9ffff40c5ffffa0caffffd0dfffff66e0fffffce0ffff6ce1ffffc4e1ffffdee7ffffaeeaffffb0eaffffbcf4ffff8cf8ffff2afbffff387a0000ec7d0000a28f0000ae8f00006c9600007c960000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -955,9 +955,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1451.0767, y: 458.76556, z: -6.5555844}
+    m_Target: {x: 841.7153, y: 701.14526, z: -8.560702}
     speed: 2
-    m_Value: {x: 1412.731, y: 444.399, z: -6.245789}
+    m_Value: {x: 1.106286, y: 0.20979261, z: 0.02969389}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1008,9 +1008,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 719.4136
+    m_Target: 919.92694
     speed: 2
-    m_Value: 688.434
+    m_Value: 10
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1076,22 +1076,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/New Folder
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/New Folder
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\linst\OneDrive\Documents\GitHub\testing-unity\gamelab
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a05f0000
-    m_LastClickedID: 24480
-    m_ExpandedIDs: 000000007e5f0000805f0000825f0000845f0000a05f000000ca9a3bffffff7f
+    m_SelectedIDs: 965f0000
+    m_LastClickedID: 24470
+    m_ExpandedIDs: 000000007e5f0000805f0000825f0000845f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
